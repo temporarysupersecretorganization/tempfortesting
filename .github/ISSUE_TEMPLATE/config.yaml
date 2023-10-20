@@ -1,4 +1,5 @@
 blank_issues_enabled: false
+projects: [temporarysupersecretorganization/1]
 contact_links:
   - name: ROCm Community Discussions
     url: https://github.com/RadeonOpenCompute/ROCm/discussions
