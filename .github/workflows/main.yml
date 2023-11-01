@@ -1,19 +1,18 @@
-name: Issue assignment
+name: Issue retrieval
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  auto-assign:
+  auto-retrieve:
     permissions: 
         issues: write
     runs-on: ubuntu-latest
     steps:
-      - name: 'Auto-assign issue'
-        uses: pozil/auto-assign-issue@v1.13.0
+      - name: 'Retrieve Issue'
+        uses: abhimeda/rocm_issue_management@v1.2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          numOfAssignee: 1
-          assignees: abhimeda
+          
           
