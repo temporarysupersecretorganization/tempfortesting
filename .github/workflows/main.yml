@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Retrieve Issue'
-        uses: abhimeda/rocm_issue_management@v1.2
+        uses: abhimeda/rocm_issue_management@v1.3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           
