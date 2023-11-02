@@ -41,11 +41,16 @@ body:
     placeholder: "e.g. MI200"
   validations:
     required: true
-- type: input
+- type: dropdown
   attributes:
     label: ROCm Version
     description: What version(s) of ROCm did you encounter the issue on?
-    placeholder: "e.g. 5.7.0"
+    multiple: true
+    options:
+        - 5.7.1
+        - 5.7.0
+        - 5.6.2
+        - 5.6.8
   validations:
     required: true
 - type: input
