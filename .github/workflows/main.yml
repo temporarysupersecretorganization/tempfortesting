@@ -6,9 +6,6 @@ on:
 
 jobs:
   auto-retrieve:
-    permissions: 
-        issues: read-all
-        repository-projects: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Generate a token
