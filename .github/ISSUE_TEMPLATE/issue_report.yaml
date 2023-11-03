@@ -34,11 +34,27 @@ body:
     placeholder: "e.g. AMD Ryzen 9 5900HX with Radeon Graphics"
   validations:
     required: true
-- type: input
+- type: dropdown
   attributes:
     label: GPU
     description: What GPU(s) did you encounter the issue on?
-    placeholder: "e.g. MI200"
+    multiple: true
+    label: Instinct
+    options:
+        - AMD Instinct™ MI250X
+        - AMD Instinct™ MI250
+        - AMD Instinct™ MI210
+        - AMD Instinct™ MI100
+        - AMD Instinct™ MI50
+        - AMD Instinct™ MI25
+    label: Radeon Pro
+    options:
+        - AMD Radeon™ Pro W7900
+        - AMD Radeon™ Pro W6800
+        - AMD Radeon™ Pro V620
+        - AMD Radeon™ Pro VII
+  validations:
+    required: true
   validations:
     required: true
 - type: dropdown
