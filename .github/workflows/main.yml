@@ -18,5 +18,7 @@ jobs:
         uses: abhimeda/rocm_issue_management@main
         with:
           authentication-token: ${{ steps.generate_token.outputs.token }}
+          github-organization: 'temporarysupersecretorganization'
+          github-repo: 'tempfortesting'
           
           
