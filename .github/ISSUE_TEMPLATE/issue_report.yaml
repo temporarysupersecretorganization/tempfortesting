@@ -75,12 +75,6 @@ body:
     required: true
   validations:
     required: true
-- type: input
-  attributes:
-      label: Other
-      description: If other please specify
-  validations:
-  required: true
 - type: dropdown
   attributes:
     label: ROCm Version
