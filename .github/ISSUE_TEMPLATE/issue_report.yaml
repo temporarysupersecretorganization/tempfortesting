@@ -70,7 +70,7 @@ body:
         - AMD Radeon RX 6650 XT
         - AMD Radeon RX 6600 XT
         - AMD Radeon RX 6600
-        - Other
+        - OTHER
   validations:
     required: true
   validations:
