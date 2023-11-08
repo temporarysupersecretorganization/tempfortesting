@@ -41,21 +41,20 @@ body:
     multiple: true
     options:
         - AMD Instinct MI250X
-        - AMD Instinct MI250    
-        - AMD Instinct MI210    
-        - AMD Instinct MI100    
-        - AMD Instinct MI50     
-        - AMD Instinct MI25     
-        - AMD Radeon Pro V620   
-        - AMD Radeon Pro VII    
+        - AMD Instinct MI250
+        - AMD Instinct MI210
+        - AMD Instinct MI100
+        - AMD Instinct MI50
+        - AMD Instinct MI25
+        - AMD Radeon Pro V620
+        - AMD Radeon Pro VII
         - AMD Radeon RX 7900 XTX
-        - AMD Radeon VII        
-        - AMD Radeon Pro W7900  
-        - AMD Radeon Pro W7800  
-        - AMD Radeon Pro W6800  
+        - AMD Radeon VII
+        - AMD Radeon Pro W7900
+        - AMD Radeon Pro W7800
+        - AMD Radeon Pro W6800
         - AMD Radeon Pro W6600
         - AMD Radeon Pro W5500
-        - AMD Radeon Pro VII
         - AMD Radeon RX 7900 XT
         - AMD Radeon RX 7600
         - AMD Radeon RX 6950 XT
