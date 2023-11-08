@@ -70,6 +70,10 @@ body:
         - Other
   validations:
     required: true
+- type: input
+  attributes:
+    label: Other
+    description: If you selected Other, please specify
 - type: dropdown
   attributes:
     label: ROCm Version
