@@ -15,7 +15,7 @@ jobs:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.APP_PEM }}
       - name: 'Retrieve Issue'
-        uses: temporarysupersecretorganization/private_action@main
+        uses: abhimeda/rocm_issue_management@main
         with:
           authentication-token: ${{ steps.generate_token.outputs.token }}
           github-organization: 'temporarysupersecretorganization'
