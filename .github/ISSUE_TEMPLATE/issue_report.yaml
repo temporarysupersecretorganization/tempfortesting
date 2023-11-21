@@ -104,89 +104,89 @@ body:
         - AqlProfile
         - build-infra
         - chelsio
-        -clang-ocl
-        -Composable Kernel
-        -dkms
-        -docker / ROCm-docker
-        -flang
-        -gpuburn
-        -half
-        -HIP
-        -HIP Examples
-        -hipBLAS
-        -hipBLASLt
-        -HIPCC
-        -hipCUB
-        -hip-examples-private
-        -hipFFT
-        -hipfort
-        -HIPIFY
-        -hipRAND
-        -hipSOLVER
-        -hipSPARSE
-        -hipSPARSELt
-        -hipTensor
-        -hip-tests
-        -HSA Runtime
-        -infrastructure
-        -jenkins-utils
-        -libdrm
-        -Linux BPI packaging framework
-        -llvm-project
-        -Mesa
-        -meta
-        -MIOpen
-        -MIVisionX
-        -ml-framework-ci
-        -MLSEQA_TestRepo
-        -OpenCL API C++ Bindings
-        -OpenCL API Headers
-        -OpenCL Conformance Test Suite
-        -OpenCL ICD Loader
-        -perftest-p2p
-        -prototype
-        -RCCL
-        -rccl-rdma-sharp-plugins
-        -rocALUTION
-        -rocBLAS
-        -ROCdbgapi
-        -ROCdebug-agent
-        -rocFFT
-        -ROCgdb
-        -ROCK
-        -ROCm Documentation/Website
-        -ROCm Data Center Tool
-        -ROCm Examples
-        -ROCm for Windows
-        -ROCm Performance Primitives
-        -ROCm System Management Interface Library
-        -ROCm Thrust
-        -ROCm Validation Suite
-        -rocm_bandwidth_test
-        -rocm-cmake
-        -rocm-core
-        -rocm-docs-core
-        -rocminfo
-        -rocMLIR
-        -rocmtools
-        -rocPRIM
-        -rocprofiler
-        -rocRAND
-        -ROCR-Runtime
-        -rocSOLVER
-        -rocSPARSE
-        -roctracer
-        -ROCT-Thunk-Interface
-        -rocWMMA
-        -Tensile
-        -umr
-        -ibv_rc_pingpong-amd
-        -mellanox
-        -mpitest
-        -Pytorch
-        -Tensorflow
-        -APEX
-        -torchvision
+        - clang-ocl
+        - Composable Kernel
+        - dkms
+        - docker / ROCm-docker
+        - flang
+        - gpuburn
+        - half
+        - HIP
+        - HIP Examples
+        - hipBLAS
+        - hipBLASLt
+        - HIPCC
+        - hipCUB
+        - hip-examples-private
+        - hipFFT
+        - hipfort
+        - HIPIFY
+        - hipRAND
+        - hipSOLVER
+        - hipSPARSE
+        - hipSPARSELt
+        - hipTensor
+        - hip-tests
+        - HSA Runtime
+        - infrastructure
+        - jenkins-utils
+        - libdrm
+        - Linux BPI packaging framework
+        - llvm-project
+        - Mesa
+        - meta
+        - MIOpen
+        - MIVisionX
+        - ml-framework-ci
+        - MLSEQA_TestRepo
+        - OpenCL API C++ Bindings
+        - OpenCL API Headers
+        - OpenCL Conformance Test Suite
+        - OpenCL ICD Loader
+        - perftest-p2p
+        - prototype
+        - RCCL
+        - rccl-rdma-sharp-plugins
+        - rocALUTION
+        - rocBLAS
+        - ROCdbgapi
+        - ROCdebug-agent
+        - rocFFT
+        - ROCgdb
+        - ROCK
+        - ROCm Documentation/Website
+        - ROCm Data Center Tool
+        - ROCm Examples
+        - ROCm for Windows
+        - ROCm Performance Primitives
+        - ROCm System Management Interface Library
+        - ROCm Thrust
+        - ROCm Validation Suite
+        - rocm_bandwidth_test
+        - rocm-cmake
+        - rocm-core
+        - rocm-docs-core
+        - rocminfo
+        - rocMLIR
+        - rocmtools
+        - rocPRIM
+        - rocprofiler
+        - rocRAND
+        - ROCR-Runtime
+        - rocSOLVER
+        - rocSPARSE
+        - roctracer
+        - ROCT-Thunk-Interface
+        - rocWMMA
+        - Tensile
+        - umr
+        - ibv_rc_pingpong-amd
+        - mellanox
+        - mpitest
+        - Pytorch
+        - Tensorflow
+        - APEX
+        - torchvision
         - Magma
   validations:
     required: true
