@@ -187,8 +187,6 @@ body:
         - APEX
         - torchvision
         - Magma
-  validations:
-    required: true
 - type: textarea
   attributes:
     label: Steps to Reproduce
