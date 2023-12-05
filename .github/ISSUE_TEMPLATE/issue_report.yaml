@@ -194,6 +194,12 @@ body:
     placeholder: Please also include what you expected to happen, and what actually did, at the failing step(s).
   validations:
     required: false
+- type: textarea
+  attributes:
+    label: Environment Variables
+    description: (Optional) Please provide any environment variables you used.
+  validations:
+    required: false
 
 - type: textarea
   attributes:
