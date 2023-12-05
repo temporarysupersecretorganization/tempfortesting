@@ -194,6 +194,7 @@ body:
     placeholder: Please also include what you expected to happen, and what actually did, at the failing step(s).
   validations:
     required: false
+    
 - type: textarea
   attributes:
     label: Environment Variables
@@ -201,6 +202,13 @@ body:
   validations:
     required: false
 
+- type: textarea
+  attributes:
+    label: Additional Files
+    description: (Optional) Please provide any log files or screenshots here.
+  validations:
+    required: false
+    
 - type: textarea
   attributes:
     label: Output of /opt/rocm/bin/rocminfo --support
