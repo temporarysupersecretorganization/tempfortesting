@@ -17,7 +17,6 @@ body:
   attributes:
     label: Problem Description
     description: Describe the issue you encountered.
-    placeholder: "The steps to reproduce can be included here, or in the dedicated section further below."
   validations:
     required: true
 - type: input
@@ -191,7 +190,6 @@ body:
   attributes:
     label: Steps to Reproduce
     description: (Optional) Detailed steps to reproduce the issue.
-    placeholder: Please also include what you expected to happen, and what actually did, at the failing step(s).
   validations:
     required: false
     
@@ -213,11 +211,5 @@ body:
   attributes:
     label: Output of /opt/rocm/bin/rocminfo --support
     description: The output of rocminfo --support will help to better address the problem.
-    placeholder: |
-      ROCk module is loaded
-      =====================
-      HSA System Attributes
-      =====================
-      [...]
   validations:
     required: true
