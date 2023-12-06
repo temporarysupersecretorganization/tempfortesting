@@ -198,21 +198,14 @@ body:
     
 - type: textarea
   attributes:
-    label: Environment Variables
-    description: (Optional) Please provide any environment variables you used.
-  validations:
-    required: false
-
-- type: textarea
-  attributes:
-    label: Additional Files
-    description: (Optional) Please provide any log files or screenshots here.
-  validations:
-    required: false
-    
-- type: textarea
-  attributes:
     label: Output of /opt/rocm/bin/rocminfo --support
     description: The output of rocminfo --support will help to better address the problem.
   validations:
     required: true
+
+- type: textarea
+  attributes:
+    label: Additional Information
+    description: (Optional) Any additional information that is relevant, e.g. relevant environment variables, log files, etc.
+  validations:
+    required: false
