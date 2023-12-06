@@ -91,6 +91,7 @@ body:
     description: (Optional) If this issue relates to a specific ROCm component, it can be mentioned here.
     multiple: true
     options:
+        - Documentation
         - AMD Common Language Runtime
         - AMD MIGraphX
         - AMD System Management Interface
@@ -186,6 +187,7 @@ body:
         - APEX
         - torchvision
         - Magma
+        - Other
 - type: textarea
   attributes:
     label: Steps to Reproduce
