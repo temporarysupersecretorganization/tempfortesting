@@ -81,8 +81,9 @@ body:
     options:
         - ROCm 5.7.1
         - ROCm 5.7.0
-        - ROCm 5.6.2
-        - ROCm 5.6.8
+        - ROCm 5.6.0
+        - ROCm 5.5.1
+        - ROCm 5.5.0
   validations:
     required: true
 - type: dropdown
