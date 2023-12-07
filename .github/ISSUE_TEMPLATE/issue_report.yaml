@@ -198,10 +198,10 @@ body:
     
 - type: textarea
   attributes:
-    label: Output of /opt/rocm/bin/rocminfo --support
-    description: The output of rocminfo --support will help to better address the problem.
+    label: (Optional for Linux users) Output of /opt/rocm/bin/rocminfo --support
+    description: The output of rocminfo --support could help to better address the problem.
   validations:
-    required: true
+    required: false
 
 - type: textarea
   attributes:
