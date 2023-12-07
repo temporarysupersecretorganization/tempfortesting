@@ -211,6 +211,6 @@ body:
 - type: textarea
   attributes:
     label: Additional Information
-    description: (Optional) Any additional information that is relevant, e.g. relevant environment variables, log files, dmesg output (Linux), etc.
+    description: (Optional) Any additional information that is relevant, e.g. relevant environment variables, log files, dmesg > dmesg.txt (on Linux), etc.
   validations:
     required: false
