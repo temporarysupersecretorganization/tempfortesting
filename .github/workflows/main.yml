@@ -19,6 +19,6 @@ jobs:
         with:
           authentication-token: ${{ steps.generate_token.outputs.token }}
           github-organization: 'temporarysupersecretorganization'
-          github-repo: 'tempfortesting'
+          project-num: '1'
           
           
