@@ -3,29 +3,13 @@ description: Please let us know if you have identified any errors with ROCm docu
 title: "[Documentation]: "
 
 body:
-- type: markdown
-  attributes:
-    value: |
-      Thank you for taking the time to make a suggestion!
-
 - type: textarea
   attributes:
-    label: Suggestion Description
-    description: Describe your suggestion.
+    label: Description of errors
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
-    label: Operating System
-    description: (Optional) If this is for a specific OS, you can mention it here.
-    placeholder: "e.g. Ubuntu"
-- type: input
-  attributes:
-    label: GPU
-    description: (Optional) If this is for a specific GPU or GPU family, you can mention it here.
-    placeholder: "e.g. MI200"
-- type: input
-  attributes:
-    label: ROCm Component
-    description: (Optional) If this issue relates to a specific ROCm component, it can be mentioned here.
-    placeholder: "e.g. rocBLAS"
+    label: Please attach any screenshots or additional evidence you think will be helpful.
+  validations:
+    required: false
