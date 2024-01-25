@@ -1,6 +1,6 @@
-name: Feature Suggestion
-description: Suggest an additional functionality, or new way of handling an existing functionality.
-title: "[Feature]: "
+name: Documentation Errors
+description: Please let us know if you have identified any errors with ROCm documentation.
+title: "[Documentation]: "
 
 body:
 - type: markdown
